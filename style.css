@@ -10,7 +10,6 @@ body {
 
 .navbar {
     background-color: #53373f;
-    padding: 10px 0px 10px 0px;
 }
 
 .table {
@@ -21,31 +20,25 @@ body {
 .navbar ul {
     display: flex;
     flex-wrap: wrap;
-    word-wrap: normal;
 }
 
 .navbar ul li {
     list-style-type: none;
-    white-space: nowrap;   
+    white-space: nowrap;
 }
 
 .navbar ul li a {
     font-family: monospace;
     font-size: 30px;
     text-decoration: none;
-    color: #8fffef;
+    color: #b0d2f3;
     padding: 10px 25px 10px 25px;
     text-transform: uppercase;
+    display: block;
 }
 
 .navbar ul li a:hover {
     background-color: #201518;
-}
-
-.navbar ul li a img {
-    width: 32px;
-    height: 32px;
-    margin-bottom: -7.5%;
 }
 
 .header h1 {
