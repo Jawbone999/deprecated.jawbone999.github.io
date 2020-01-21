@@ -5,11 +5,13 @@
 }
 
 body {
-    background-color: #678c8b;
+    background-color: #040e18;
 }
 
 .navbar {
-    background-color: #53373f;
+    border-bottom-style: solid;
+    border-color: #3e5c61;
+    border-width: 1px;
 }
 
 .table {
@@ -38,7 +40,7 @@ body {
 }
 
 .navbar ul li a:hover {
-    background-color: #201518;
+    background-color: #3f292f;
 }
 
 .header h1 {
